@@ -1,0 +1,28 @@
+# Ignore all subdirectories (model implementations)
+*/
+
+# Allow this main directory to be tracked
+!.gitignore
+
+# Ignore all model files (common formats)
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.tflite
+*.onnx
+*.sav
+
+# Ignore all CSV files
+*.csv
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore cache and temporary files
+__pycache__/
+*.log
+*.tmp
+.DS_Store
